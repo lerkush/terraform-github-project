@@ -1,0 +1,31 @@
+# ===============================
+# Terraform & VS Code .gitignore
+# ===============================
+
+# Terraform local dosyaları
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+
+# Değişken dosyaları (şifre, token vb.)
+terraform.tfvars
+*.auto.tfvars
+
+# VS Code çalışma ayarları
+.vscode/
+*.code-workspace
+
+# Geçici dosyalar
+*.log
+*.tmp
+.DS_Store
+
+# Sistem dosyaları (Windows & macOS)
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Terraform crash dosyaları
+crash.log
+crash.*.log

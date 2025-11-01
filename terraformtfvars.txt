@@ -1,0 +1,23 @@
+github_token = "XXXXXXXXXX"     # Buraya token'ını yaz
+github_owner = "XXXXXX"  # GitHub kullanıcı adın veya organizasyon adın
+
+repositories = {
+  "terraform-managed-repo" = {
+    description = "First repo managed by Terraform"
+    visibility  = "private"
+  }
+
+  "devops-lab-repo" = {
+    description = "Lab environment for DevOps testing"
+    visibility  = "public"
+  }
+
+  "iac-examples" = {
+    description = "Infrastructure-as-Code examples"
+    visibility  = "private"
+  }
+    "iac-repo" = {
+    description = "Infrastructure-as-Code examples"
+    visibility  = "private"
+  }
+}
